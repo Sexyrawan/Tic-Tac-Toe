@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #f4d58d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  
+}
+.container{
+  height: 70vh;
+}
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  margin-top: 50px;
+
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 5px 5px 8px black;
+  font-size: 12vmin;
+  background-color: #eb5e28;
+  color: #0b090a;
+}
+#reset-btn{
+  padding: 10px ;
+  font-size: 4vmin;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: #00b300;
+  background-color: #f4d58d;
+
+}
+#new-btn{
+  padding: 14px ;
+  font-size: 8vmin;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #f4d58d;
+  color: #001219;
+  /*padding-top: 10px;*/
+}
+#msg{
+  color: #00b300;
+  font-size: 8vmin;
+}
+.msg-container{
+  height: 30vmin;
+  
+  position: fixed;
+  left: 10px;
+  top:230px;
+
+}
+.hide{
+  display: none;
+}
+
+
+
+.colour{
+  color: #fdf0d5;/*light colour*/
+  color: #ffc2d1;/*light colour pink*/
+  color: #fb6f92;/*light colour pink dark*/
+  color: #7678ed;/*blue light dark for button */
+  color: #4f772d;/*for new game or winner */
+  color: #84a98c;
+  color: #6c757d;
+  color: #7a7a7a;
+}
